@@ -8,6 +8,8 @@ body{
   font-weight:800;
   font-style: normal;
   color: #4E47FF;
+  font-size:30px;
+  margin-left: 150px;
 }
 
 
@@ -19,8 +21,46 @@ body{
 }
 
 
+
 nav{
     display: flex;
-    gap:1140px
-    
+    justify-content: space-between;    
+}
+
+.signup-button{
+    border-radius: 7px;
+    height: 38px;
+    width: 132px;
+    background-color: #4E47FF;
+    color: aliceblue;
+    border: none;
+    margin-right: 150px;
+    cursor: pointer;
+
+}
+
+
+.banner {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  text-align: center;
+}
+.text{
+    font-size: 65px;
+    font-weight: bold;
+}
+
+.focus-button{
+    border-radius: 7px;
+    height: 48px;
+    width: 174px;
+    background-color: #4E47FF;
+    color:white;
+    border: none;
+}
+
+.header{
+background-image: url(../images/Hero-bg.png);
+height: 698px;
 }
