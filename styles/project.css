@@ -2,6 +2,10 @@ body{
     max-width: 1450px;
 }
 
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 .inter-normal {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -63,4 +67,43 @@ nav{
 .header{
 background-image: url(../images/Hero-bg.png);
 height: 698px;
+}
+
+.title{
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.web-image{
+    border-radius: 48px;
+    height: 328px;
+    width: 403px;
+}
+.action{
+    display: flex;
+    justify-content: space-between;
+    height: 328px;
+    width: 1140px;
+    margin: 116px auto;
+}
+.paragraph{
+    font-size: 24px;
+    color: #252432;
+}
+
+.btn-preview{
+     border-radius: 7px;
+    height: 48px;
+    width: 229px;
+    background-color: #4E47FF;
+    color:white;
+    border: none;
+
+}
+
+.first-text{
+    display: flex;
+    flex-direction: column;
+    padding-top: 62.5px;
+    gap: 23px;
 }
