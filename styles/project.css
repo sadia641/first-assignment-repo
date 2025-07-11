@@ -1,5 +1,6 @@
 body{
     max-width: 1450px;
+    background-color: rgba(170, 195, 222, 0.103);
 }
 
 main{
@@ -9,10 +10,8 @@ main{
 .inter-normal {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
- font-weight:400;
+  font-weight:400;
   font-style: normal;
-  color: #4E47FF;
-  font-size:30px;
 }
 
 
@@ -25,6 +24,10 @@ main{
 
    .logo-div{
     margin-left: 150px;
+    font-weight:900;
+    color: #4E47FF;
+    font-size:34px;
+
    }
 
 nav{
@@ -159,6 +162,41 @@ height: 698px;
 
 }
 
+
+.star{
+    display: flex;
+
+}
+.card-head{
+    font-weight: bold;
+    font-size: 42px;
+    text-align: center;
+}
+
+.card-ava{
+    display: flex;
+    gap: 5px;
+}
+.commenter{
+    font-size: 0.9em;
+}
+.ava{
+    border-radius: 50%;
+}
+.card{
+    width: 360px;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 14px;
+    padding: 24px;
+
+}
+
+.card-container{
+    display: flex;
+    gap: 24px;
+}
+
 footer ul{
     display: flex;
         justify-content: space-around
@@ -176,7 +214,7 @@ footer ul  li{
 
 
 .f-title{
-    font-weight: bold;
+    font-weight:900;
     font-size: 80px;
     color: #4E47FF;
     text-align: center;
@@ -190,3 +228,5 @@ footer ul  li{
     height: 221px;
     margin:104px 455px 103px 454px;
 }
+
+
