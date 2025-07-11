@@ -25,10 +25,11 @@ main{
    .logo-div{
     margin-left: 150px;
     font-weight:900;
-    color: #4E47FF;
+    color: #3c9114;
     font-size:34px;
 
-   }
+}
+
 
 nav{
     display: flex;
@@ -214,46 +215,6 @@ height: 698px;
     display: flex;
     gap: 24px;
 }
-
-/*
-
-form{
-    display: flex;
-    flex-direction: column;
-}
-
-.submit{
-    display: flex;
-    justify-content: center;
-    width: 1140px;
-    height: 632px;
-}
-.sub-head{
-    font-size: 80px;
-    font-weight: bold;
-    display: flex;
-    flex-direction: column;
-    padding-top: 110px;
-    gap: 23px;
-}
-.sub-btn{
-    color:white;
-    border: none;
-    background-color: #4E47FF;
-}
-
-
-.form-div{
-    width: 900px;
-    height: 900px;
-    font-weight: bold;
-    display: flex;
-    flex-direction: column;
-    padding-top: 110px;
-    gap: 23px;
-}
-*/
-
 
 
 .submit {
