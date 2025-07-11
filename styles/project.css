@@ -9,11 +9,10 @@ main{
 .inter-normal {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight:400;
+ font-weight:400;
   font-style: normal;
   color: #4E47FF;
   font-size:30px;
-  margin-left: 150px;
 }
 
 
@@ -24,7 +23,9 @@ main{
   font-style: normal;
 }
 
-
+   .logo-div{
+    margin-left: 150px;
+   }
 
 nav{
     display: flex;
@@ -69,6 +70,9 @@ background-image: url(../images/Hero-bg.png);
 height: 698px;
 }
 
+.logo{
+    font-weight: bold;
+}
 .title{
     font-size: 42px;
     font-weight: bold;
@@ -133,7 +137,7 @@ height: 698px;
     font-size: 38px;
     font-weight: bold;
     text-align: center;
-    padding-left: 142px;
+    
 }
 
 .user{
@@ -143,11 +147,46 @@ height: 698px;
     border-radius: 24px;
     margin-top: 116px;
     margin-bottom: 137px;
-    margin-right: 159px
+    margin-right: 159px;
+
 }
 .user-padding{
     padding-bottom: 50px;
     padding-top: 10px;
     padding-right: 142px;
+     margin-left: 141px;
 
+
+}
+
+footer ul{
+    display: flex;
+        justify-content: space-around
+
+}
+
+footer ul a{
+    text-decoration: none;
+
+}
+footer ul  li{
+    list-style: none;
+
+}
+
+
+.f-title{
+    font-weight: bold;
+    font-size: 80px;
+    color: #4E47FF;
+    text-align: center;
+}
+.f-para{
+    text-align: center;
+}
+
+.footer{
+    width: 531px;
+    height: 221px;
+    margin:104px 455px 103px 454px;
 }
