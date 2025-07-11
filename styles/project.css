@@ -9,7 +9,7 @@ main{
 .inter-normal {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight:800;
+  font-weight:400;
   font-style: normal;
   color: #4E47FF;
   font-size:30px;
@@ -84,11 +84,14 @@ height: 698px;
     justify-content: space-between;
     height: 328px;
     width: 1140px;
-    margin: 116px auto;
+    margin-top: 116px;
+    margin-bottom: 116px;
+    margin-right: 159px;
 }
 .paragraph{
     font-size: 24px;
     color: #252432;
+    font-weight: lighter;
 }
 
 .btn-preview{
@@ -106,4 +109,45 @@ height: 698px;
     flex-direction: column;
     padding-top: 62.5px;
     gap: 23px;
+
+}
+
+.info{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.ac-text{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+
+.ac-label{
+    font-size: 20px;
+    font-weight:lighter;
+    color: #252432;
+}
+.user-title{
+    color: black;
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 142px;
+}
+
+.user{
+    height: 306px;
+    width: 1140px;
+    background-color: #4d47ff23;
+    border-radius: 24px;
+    margin-top: 116px;
+    margin-bottom: 137px;
+    margin-right: 159px
+}
+.user-padding{
+    padding-bottom: 50px;
+    padding-top: 10px;
+    padding-right: 142px;
+
 }
